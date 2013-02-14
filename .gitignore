@@ -1,0 +1,11 @@
+.DS_Store
+build.properties
+package.xml
+request.xml
+response.xml
+tmp
+scratch.page
+build.xml
+1.manifest
+.session
+.lastbuild

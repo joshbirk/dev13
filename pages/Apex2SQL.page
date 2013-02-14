@@ -1,0 +1,18 @@
+<apex:page controller="Apex2SQL">
+<script>
+function showSQL(objName) {
+	Apex2SQL.getObjectSQL(objName,function(response,status) {
+		alert(response);
+	})
+	
+}
+
+</script>
+
+
+	<UL>
+	<apex:repeat value="{!objectNames}" var="name">
+		<LI><a onmousedown="showSQL('{!name}')">{!name}</a></LI>
+	</apex:repeat>
+	</UL>
+</apex:page>
