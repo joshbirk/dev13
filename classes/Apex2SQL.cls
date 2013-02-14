@@ -33,7 +33,7 @@ public with sharing class Apex2SQL {
 			} 
 			options += ',';
 			if(String.valueOf(dr.getType()) == 'ID') {
-				response +='integer AUTOINCREMENT PRIMARY KEY'+options;
+				response +='serial PRIMARY KEY'+options;
 			}
 			if(String.valueOf(dr.getType()) == 'Reference') {
 				String ref = String.valueOf(dr.getReferenceTo()[0]);
