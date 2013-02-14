@@ -4,6 +4,7 @@ package.xml
 request.xml
 response.xml
 tmp
+clean
 scratch.page
 build.xml
 build-ji.xml

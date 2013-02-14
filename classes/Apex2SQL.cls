@@ -33,7 +33,7 @@ public with sharing class Apex2SQL {
 			} 
 			options += ',';
 			if(String.valueOf(dr.getType()) == 'ID') {
-				response +='serial PRIMARY KEY'+options;
+				response +='integer PRIMARY KEY'+options;
 			}
 			if(String.valueOf(dr.getType()) == 'Reference') {
 				String ref = String.valueOf(dr.getReferenceTo()[0]);
