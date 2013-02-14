@@ -6,6 +6,8 @@ response.xml
 tmp
 scratch.page
 build.xml
+build-ji.xml
+build-ji.properties
 1.manifest
 .session
 .lastbuild
