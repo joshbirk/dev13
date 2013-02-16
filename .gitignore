@@ -5,6 +5,7 @@ request.xml
 response.xml
 tmp
 clean
+staticresources
 scratch.page
 build.xml
 build-ji.xml
